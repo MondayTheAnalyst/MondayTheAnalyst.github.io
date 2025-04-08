@@ -1,4 +1,3 @@
-## 🚀 About Me
 Hi, I'm MONDAY, a data analyst with a strong background in economics passionate about uncovering insights that drive better business decisions.
 
 This portfolio showcases my end-to-end analytical projects where I use tools like SQL, Excel, and Power BI to:
@@ -10,7 +9,6 @@ This portfolio showcases my end-to-end analytical projects where I use tools lik
 - Translate raw numbers into actionable insights
 
 - Create interactive dashboards and reports
-
 
 
 # 📊 Featured Projects 
@@ -61,7 +59,7 @@ This dashboard was developed as a follow-up to a comprehensive SQL project. Whil
 🔗 [View Project](https://github.com/MondayTheAnalyst/pizza-sales-analysis)  
 Analyzed pizza sales trends, peak hours, and customer preferences to provide data-driven recommendations.  
 
-
+---
 
 
 (More projects coming soon!)
