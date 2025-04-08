@@ -1,5 +1,18 @@
-# 🚀 About Me  
-I am a data analyst with a strong background in economics. I specialize in extracting meaningful insights from data using SQL, Excel, and Power BI.  
+👋 Welcome to My Data Analytics Portfolio
+# 🚀 About Me
+Hi, I'M MONDAY, a data analyst with a strong background in economics passionate about uncovering insights that drive better business decisions.
+
+- This portfolio showcases my end-to-end analytical projects where I use tools like SQL, Excel, and Power BI to:
+
+- Clean and transform real-world data
+
+- Answer complex business questions
+  
+- Translate raw numbers into actionable insights
+
+- Create interactive dashboards and reports
+
+
 
 # 📊 Featured Projects 
 
@@ -21,6 +34,12 @@ A SQL-powered analysis of consumer spending data (~10,000 records), covering:
 🔗 [View Full Project on GitHub](https://github.com/MondayTheAnalyst/consumer-spending-sql)
 
 ---
+
+## 🔹 Model Commerce Sales Analysis (SQL + Excel)
+A deep-dive business intelligence project built with SQL and Excel.
+Skills shown: Data modeling, advanced SQL queries, customer segmentation, profitability analysis, delay detection, Insight generation from geographic data, and Excel visualizations.
+🔗 [View Full Project on GitHub](https://github.com/MondayTheAnalyst/Model-commerce-analysis)
+
  
 ## 🍕 Pizza Sales Analysis  
 **Technologies:** SQL, Excel  
