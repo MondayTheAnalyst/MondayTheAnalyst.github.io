@@ -42,6 +42,20 @@ Skills shown: Data modeling, advanced SQL queries, customer segmentation, profit
 🔗 [View Full Project on GitHub](https://github.com/MondayTheAnalyst/Model-commerce-analysis)
 
 ---
+
+## 📊 Power BI Dashboard – Model Commerce Sales Report
+
+Welcome to the **Model Commerce Dashboard**, an interactive business intelligence report built with Power BI.
+This dashboard was developed as a follow-up to a comprehensive SQL project. While the SQL version answered business questions using queries and Excel, this Power BI version was created to:
+
+- Provide a visual layer to SQL insights
+- Make key metrics accessible to non-technical users
+- Allow decision-makers to drill into trends by region, product, or customer
+
+
+ 🔗 [Explore the Report](https://github.com/MondayTheAnalyst/Model-commerce-Dashboard)
+
+---
  
 ## 🍕 Pizza Sales Analysis  
 **Technologies:** SQL, Excel  
