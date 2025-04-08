@@ -1,5 +1,5 @@
-👋 Welcome to My Data Analytics Portfolio
-# 🚀 About Me
+##                             👋 Welcome to My Data Analytics Portfolio
+#                                             🚀 About Me
 Hi, I'M MONDAY, a data analyst with a strong background in economics passionate about uncovering insights that drive better business decisions.
 
 This portfolio showcases my end-to-end analytical projects where I use tools like SQL, Excel, and Power BI to:
@@ -41,6 +41,7 @@ Skills shown: Data modeling, advanced SQL queries, customer segmentation, profit
 
 🔗 [View Full Project on GitHub](https://github.com/MondayTheAnalyst/Model-commerce-analysis)
 
+---
  
 ## 🍕 Pizza Sales Analysis  
 **Technologies:** SQL, Excel  
