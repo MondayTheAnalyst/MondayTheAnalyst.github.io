@@ -43,7 +43,7 @@ Skills shown: Data modeling, advanced SQL queries, customer segmentation, profit
 
 ---
 
-## 📊 Power BI Dashboard – Model Commerce Sales Report
+## 📊 Power BI Dashboard – Model Commerce Report
 
 Welcome to the **Model Commerce Dashboard**, an interactive business intelligence report built with Power BI.
 This dashboard was developed as a follow-up to a comprehensive SQL project. While the SQL version answered business questions using queries and Excel, this Power BI version was created to:
