@@ -1,4 +1,3 @@
-
 ## 🚀 About Me
 Hi, I'm MONDAY, a data analyst with a strong background in economics passionate about uncovering insights that drive better business decisions.
 
