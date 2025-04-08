@@ -1,5 +1,5 @@
-##                             👋 Welcome to My Data Analytics Portfolio
-#                                             🚀 About Me
+
+## 🚀 About Me
 Hi, I'm MONDAY, a data analyst with a strong background in economics passionate about uncovering insights that drive better business decisions.
 
 This portfolio showcases my end-to-end analytical projects where I use tools like SQL, Excel, and Power BI to:
