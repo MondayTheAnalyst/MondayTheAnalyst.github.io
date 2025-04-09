@@ -55,6 +55,13 @@ This dashboard was developed as a follow-up to a comprehensive SQL project. Whil
  🔗 [Explore the Report](https://github.com/MondayTheAnalyst/Model-commerce-Dashboard)
 
 ---
+# 📺 Netflix Titles Data Analysis & Visualization
+
+This project explores and visualizes Netflix's global content catalog using data analysis and business intelligence tools. It includes cleaning a raw dataset, normalizing it in SQL, and building an interactive Power BI dashboard that reveals insights into show trends, global availability, and genre preferences. The project demonstrates practical skills in Excel, SQL, Power BI, and data storytelling.
+
+🔗 [View Full Project](https://github.com/MondayTheAnalyst/Netflix--Data-Project)
+
+---
  
 ## 🍕 Pizza Sales Analysis  
 **Technologies:** SQL, Excel  
