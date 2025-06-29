@@ -25,8 +25,8 @@ If you're a recruiter, business owner, or client looking for clear, insight-driv
 
 ### 🎓 EDU_SCHOOL_DB – Student Management Database
 
-A relational database project designed to simulate core university administrative operations.
-Built using SQL Server and Excel. Includes normalized schema, real-world data, SQL queries, and ERD.
+A SQL-based relational database project designed to simulate real-world university administrative operations.
+Includes normalized schema, real-world data, query logic, ERD and query results.
 
 🔗 [View Project Repository](https://github.com/MondayTheAnalyst/Edu_School_DB)
 
