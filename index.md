@@ -30,6 +30,7 @@ Includes normalized schema, real-world data, query logic, ERD and query results.
 
 🔗 [View Project Repository](https://github.com/MondayTheAnalyst/Edu_School_DB)
 
+---
 
 ### 🧾 Consumer Spending Analysis (SQL Project)
 
@@ -56,7 +57,7 @@ Skills shown: Data modeling, advanced SQL queries, customer segmentation, profit
 
 ---
 
-## 📊 Power BI Dashboard – Model Commerce Report
+### 📊 Power BI Dashboard – Model Commerce Report
 
 Welcome to the **Model Commerce Dashboard**, an interactive business intelligence report built with Power BI.
 This dashboard was developed as a follow-up to a comprehensive SQL project. While the SQL version answered business questions using queries and Excel, this Power BI version was created to:
@@ -69,7 +70,8 @@ This dashboard was developed as a follow-up to a comprehensive SQL project. Whil
  🔗 [Explore the Report](https://github.com/MondayTheAnalyst/Model-commerce-Dashboard)
 
 ---
-# 📺 Netflix Titles Data Analysis & Visualization
+
+### 📺 Netflix Titles Data Analysis & Visualization
 
 This project explores and visualizes Netflix's global content catalog using data analysis and business intelligence tools. It includes cleaning a raw dataset, normalizing it in SQL, and building an interactive Power BI dashboard that reveals insights into show trends, global availability, and genre preferences. The project demonstrates practical skills in Excel, SQL, Power BI, and data storytelling.
 
@@ -77,7 +79,7 @@ This project explores and visualizes Netflix's global content catalog using data
 
 ---
  
-## 🍕 Pizza Sales Analysis  
+### 🍕 Pizza Sales Analysis  
 **Technologies:** SQL, Excel  
 🔗 [View Project](https://github.com/MondayTheAnalyst/pizza-sales-analysis)  
 Analyzed pizza sales trends, peak hours, and customer preferences to provide data-driven recommendations.  
