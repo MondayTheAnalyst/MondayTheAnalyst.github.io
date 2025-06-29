@@ -12,8 +12,6 @@ This portfolio showcases how I’ve helped teams and clients:
 
 Make sense of large, messy datasets
 
-Automate data tasks using Python
-
 Uncover trends and translate them into action
 
 Build tools and visuals that inform decision-makers
