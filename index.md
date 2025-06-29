@@ -8,22 +8,36 @@
 
 ---
 
-Hi, I'm MONDAY, a data analyst with a strong background in economics passionate about uncovering insights that drive better business decisions.
+Hi, I'm Monday — a data analyst with a focus on clarity and impact
+I use SQL, Excel, Power BI, and Python to solve real business problems — from cleaning messy data to answering complex questions and building dashboards that support better decisions.
 
-This portfolio showcases my end-to-end analytical projects where I use tools like SQL, Excel, and Power BI to:
+With a background in economics and practical experience from IBM’s Data Analyst program, I bring both technical skill and business thinking to every project.
 
-- Clean and transform real-world data
+This portfolio showcases how I’ve helped teams and clients:
 
-- Answer complex business questions
-  
-- Translate raw numbers into actionable insights
+Make sense of large, messy datasets
 
-- Create interactive dashboards and reports
+Automate data tasks using Python
+
+Uncover trends and translate them into action
+
+Build tools and visuals that inform decision-makers
+
+If you're a recruiter, business owner, or client looking for clear, insight-driven analytics — welcome. Let’s dive in.
+
 
 
 # 📊 Featured Projects 
 
 ---
+
+### 🎓 EDU_SCHOOL_DB – Student Management Database
+
+A relational database project designed to simulate core university administrative operations.
+Built using SQL Server and Excel. Includes normalized schema, real-world data, SQL queries, and ERD.
+
+🔗 [View Project Repository](https://github.com/MondayTheAnalyst/Edu_School_DB)
+
 
 ### 🧾 Consumer Spending Analysis (SQL Project)
 
