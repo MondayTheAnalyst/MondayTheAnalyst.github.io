@@ -9,17 +9,17 @@ With a background in economics and practical experience from IBM’s Data Analys
 
 This portfolio showcases how I’ve helped teams and clients:
 
-Make sense of large, messy datasets
+- Make sense of large, messy datasets
 
-Uncover trends and translate them into action
+- Uncover trends and translate them into action
 
-Build tools and visuals that inform decision-makers
+- Build tools and visuals that inform decision-makers
 
 If you're a recruiter, business owner, or client looking for clear, insight-driven analytics — welcome. Let’s dive in.
 
 
 
-# 📊 Featured Projects 
+## 📊 Featured Projects 
 
 ---
 
