@@ -23,6 +23,15 @@ If you're a recruiter, business owner, or client looking for clear, insight-driv
 
 ---
 
+### 🛍️ Retail Sales Analysis
+Tools: SQL Server, Excel
+Focus: Business insights across sales, customers, promotions, and inventory
+🔗 View Project on GitHub
+
+A data-driven project answering 15 business questions using SQL and Excel. Includes sales trend analysis, customer segmentation, promotion effectiveness, and inventory risk detection. Final insights are visualized using pivot tables, slicers, and combo charts, with results summarized in a detailed insights report.
+
+---
+
 ### 🎓 EDU_SCHOOL_DB – Student Management Database
 
 A SQL-based relational database project designed to simulate real-world university administrative operations.
