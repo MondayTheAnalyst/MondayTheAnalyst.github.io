@@ -1,22 +1,29 @@
-🎈 ABOUT ME
+<table>
+  <tr>
+    <td width="130px">
+      <img src="./images/1748298529314.jpeg" width="110" style="border-radius: 50%">
+    </td>
+    <td>
+      <h1>Monday Obot</h1>
+      <p><strong>Data Analyst</strong> | SQL • Excel • Power BI • Python<br>
+      Turning raw data into business insight</p>
+    </td>
+  </tr>
+</table>
 
----
+🎈 <strong>ABOUT ME</strong>
 
-Hi, I'm Monday — a data analyst with a focus on clarity and impact
-I use SQL, Excel, Power BI, and Python to solve real business problems — from cleaning messy data to answering complex questions and building dashboards that support better decisions.
+Hi, I'm Monday — a data analyst with a focus on clarity and impact. I use SQL, Excel, Power BI, and Python to solve real business problems — from cleaning messy data to answering complex questions and building dashboards that support better decisions.
 
 With a background in economics and practical experience from IBM’s Data Analyst program, I bring both technical skill and business thinking to every project.
 
 This portfolio showcases how I’ve helped teams and clients:
 
-- Make sense of large, messy datasets
-
-- Uncover trends and translate them into action
-
+- Make sense of large, messy datasets  
+- Uncover trends and translate them into action  
 - Build tools and visuals that inform decision-makers
 
 If you're a recruiter, business owner, or client looking for clear, insight-driven analytics — welcome. Let’s dive in.
-
 
 
 ## 📊 Featured Projects 
