@@ -1,188 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Monday Obot - Data Analyst Portfolio</title>
-    <style>
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            margin: 0;
-            background-color: #f8f8f8;
-            color: #333;
-        }
+  <meta charset="UTF-8" />
+  <title>Monday Obot - Data Analyst Portfolio</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
 
-        header {
-            background-color: #083c3c;
-            color: white;
-            padding: 40px 20px 60px 20px;
-            text-align: center;
-        }
+    header {
+      background-color: #083c3c;
+      color: white;
+      padding: 40px 20px 60px 20px;
+      text-align: center;
+    }
 
-        .profile-pic {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            border: 3px solid white;
-            object-fit: cover;
-            margin-bottom: 15px;
-        }
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
 
-        h1 {
-            margin: 10px 0 5px;
-        }
+    h1 {
+      margin: 10px 0 5px;
+    }
 
-        p.bio {
-            font-size: 1rem;
-            max-width: 650px;
-            margin: auto;
-        }
+    p.bio {
+      font-size: 1rem;
+      max-width: 650px;
+      margin: auto;
+    }
 
-        .section-row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 40px;
-            padding: 30px 20px;
-        }
+    .section-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 30px 20px;
+    }
 
-        .card {
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
-            padding: 20px 25px;
-            flex: 1 1 300px;
-            max-width: 400px;
-        }
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+      padding: 20px 25px;
+      flex: 1 1 300px;
+      max-width: 400px;
+    }
 
-        .card h2 {
-            margin-top: 0;
-            color: #083c3c;
-        }
+    .card h2 {
+      margin-top: 0;
+      color: #083c3c;
+    }
 
-        .contact a {
-            display: block;
-            margin-top: 8px;
-            text-decoration: none;
-            color: #083c3c;
-            font-weight: bold;
-        }
+    .contact a {
+      display: block;
+      margin-top: 8px;
+      text-decoration: none;
+      color: #083c3c;
+      font-weight: bold;
+    }
 
-        .tools-grid {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
+    .tools-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
 
-        .tool {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-size: 0.95rem;
-        }
+    .tool {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 0.95rem;
+    }
 
-        .tool img {
-            width: 40px;
-            height: 40px;
-            margin-bottom: 8px;
-        }
+    .tool img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 8px;
+    }
 
-        footer {
-            background-color: #083c3c;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            font-size: 0.9rem;
-        }
+    footer {
+      background-color: #083c3c;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9rem;
+    }
 
-        .project-card img {
-            width: 100%;
-            height: auto;
-            border-radius: 6px;
-            margin-top: 15px;
-        }
-    </style>
+    .projects-section {
+      padding: 30px 20px;
+    }
+
+    .projects-section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #083c3c;
+    }
+
+    .project-card {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 900px;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .project-info {
+      flex: 1 1 55%;
+    }
+
+    .project-info h3 {
+      margin-top: 0;
+      color: #083c3c;
+    }
+
+    .project-info ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    .project-info a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #007BFF;
+      font-weight: bold;
+    }
+
+    .project-image {
+      flex: 1 1 40%;
+      max-width: 300px;
+    }
+
+    .project-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    <img src="Profile.jpeg" alt="Profile" class="profile-pic">
-    <h1>Monday Obot</h1>
-    <p class="bio">I'm a data analyst helping teams and businesses turn raw data into clear, actionable insight using <strong>SQL, Excel, Power BI, and Python</strong>. I specialize in uncovering trends, answering business questions, and building reports that support better decisions.</p>
+  <img src="Profile.jpeg" alt="Profile" class="profile-pic">
+  <h1>Monday Obot</h1>
+  <p class="bio">I'm a data analyst helping teams and businesses turn raw data into clear, actionable insight using <strong>SQL, Excel, Power BI, and Python</strong>. I specialize in uncovering trends, answering business questions, and building reports that support better decisions.</p>
 </header>
 
 <div class="section-row">
-    <div class="card">
-        <h2>My Services</h2>
-        <ul>
-            <li>Business Performance & Revenue Analysis</li>
-            <li>Customer Insights & Segmentation</li>
-            <li>Marketing & Campaign Optimization</li>
-            <li>Funnel Analysis & Conversion Tracking</li>
-            <li>KPI Dashboards & Reporting Automation</li>
-        </ul>
-    </div>
+  <div class="card">
+    <h2>My Services</h2>
+    <ul>
+      <li>Business Performance & Revenue Analysis</li>
+      <li>Customer Insights & Segmentation</li>
+      <li>Marketing & Campaign Optimization</li>
+      <li>Funnel Analysis & Conversion Tracking</li>
+      <li>KPI Dashboards & Reporting Automation</li>
+    </ul>
+  </div>
 
-    <div class="card">
-        <h2>Tools I Use</h2>
-        <div class="tools-grid">
-            <div class="tool">
-                <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel">
-                Excel
-            </div>
-            <div class="tool">
-                <img src="powerbi_logo.png" alt="Power BI"> 
-                Power BI
-            </div>
-            <div class="tool">
-               <img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" alt="SQL">
-                SQL
-            </div>
-            <div class="tool">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
-                Python
-            </div>
-            <div class="tool">
-                <img src="tableau_logo.png" alt="Tableau">
-                Tableau
-            </div>
-        </div>
+  <div class="card">
+    <h2>Tools I Use</h2>
+    <div class="tools-grid">
+      <div class="tool">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel">
+        Excel
+      </div>
+      <div class="tool">
+        <img src="powerbi_logo.png" alt="Power BI"> 
+        Power BI
+      </div>
+      <div class="tool">
+        <img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" alt="SQL">
+        SQL
+      </div>
+      <div class="tool">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
+        Python
+      </div>
+      <div class="tool">
+        <img src="tableau_logo.png" alt="Tableau">
+        Tableau
+      </div>
     </div>
+  </div>
 </div>
 
 <div class="section-row">
-    <div class="card contact">
-        <h2>Let's Connect</h2>
-        <a href="https://www.linkedin.com/in/mbotobong-obot-6001851a4/" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn" width="18" style="vertical-align: middle;"> LinkedIn
-        </a>
-        <a href="mailto:obotmonday680@gmail.com">
-            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="18" style="vertical-align: middle;"> obotmonday680@gmail.com
-        </a>
-    </div>
+  <div class="card contact">
+    <h2>Let's Connect</h2>
+    <a href="https://www.linkedin.com/in/mbotobong-obot-6001851a4/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn" width="18" style="vertical-align: middle;"> LinkedIn
+    </a>
+    <a href="mailto:obotmonday680@gmail.com">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" width="18" style="vertical-align: middle;"> obotmonday680@gmail.com
+    </a>
+  </div>
 </div>
 
 <!-- My Projects -->
-<section class="projects">
+<section class="projects-section">
   <h2>My Projects</h2>
-  
+
   <div class="project-card">
-    <h3>📊 Power BI Dashboard – Model Commerce Report</h3>
-    <p>Welcome to the <strong>Model Commerce Dashboard</strong>, an interactive business intelligence report built with Power BI. This dashboard was developed as a follow-up to a comprehensive SQL project. While the SQL version answered business questions using queries and Excel, this Power BI version was created to:
-    <ul>
-      <li>Provide a visual layer to SQL insights</li>
-      <li>Make key metrics accessible to non-technical users</li>
-      <li>Allow decision-makers to drill into trends by region, product, or customer</li>
-    </ul>
-    </p>
-    <img src="Model Commerce Dashboard.png" alt="Model Commerce Dashboard">
-    <a href="https://github.com/MondayTheAnalyst/Model-commerce-Dashboard" target="_blank">🔗 [Explore the Report]</a>
+    <div class="project-info">
+      <h3>📊 Power BI Dashboard – Model Commerce Report</h3>
+      <p>Welcome to the <strong>Model Commerce Dashboard</strong>, an interactive business intelligence report built with Power BI. This dashboard was developed as a follow-up to a comprehensive SQL project. While the SQL version answered business questions using queries and Excel, this Power BI version was created to:</p>
+      <ul>
+        <li>Provide a visual layer to SQL insights</li>
+        <li>Make key metrics accessible to non-technical users</li>
+        <li>Allow decision-makers to drill into trends by region, product, or customer</li>
+      </ul>
+      <a href="https://github.com/MondayTheAnalyst/Model-commerce-Dashboard" target="_blank">🔗 Explore the Report</a>
+    </div>
+    <div class="project-image">
+      <img src="Model Commerce Dashboard.png" alt="Model Commerce Dashboard">
+    </div>
   </div>
 
 </section>
 
 <footer>
-    &copy; 2025 Monday Obot. All rights reserved.
+  &copy; 2025 Monday Obot. All rights reserved.
 </footer>
 
 </body>
