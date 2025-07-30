@@ -94,13 +94,6 @@ This project explores and visualizes Netflix's global content catalog using data
 🔗 [View Full Project](https://github.com/MondayTheAnalyst/Netflix--Data-Project)
 
 ---
- 
-### 🍕 Pizza Sales Analysis  
-**Technologies:** SQL, Excel  
-🔗 [View Project](https://github.com/MondayTheAnalyst/pizza-sales-analysis)  
-Analyzed pizza sales trends, peak hours, and customer preferences to provide data-driven recommendations.  
-
----
 
 
 (More projects coming soon!)
