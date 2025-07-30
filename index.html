@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Monday Obot | Data Analyst Portfolio</title>
   <style>
+    html { scroll-behavior: smooth; }
     body {
       font-family: 'Times New Roman', Times, serif;
       margin: 0;
@@ -12,6 +13,8 @@
       background: #e2e2e2;
       color: #222;
     }
+    a { color: #005f73; text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
     .hero {
       display: flex;
@@ -38,6 +41,7 @@
     .hero-text h1 {
       font-size: 54px;
       margin-bottom: 24px;
+      color: #005f73;
     }
 
     .hero-text p {
@@ -54,6 +58,7 @@
     .section h2 {
       font-size: 32px;
       margin-bottom: 30px;
+      color: #005f73;
     }
 
     .section ul {
@@ -80,6 +85,11 @@
     .tools img {
       width: 50px;
       height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .tools img:hover {
+      transform: scale(1.1);
     }
 
     .project-section {
@@ -91,20 +101,37 @@
 
     .project-section h2 {
       font-size: 28px;
+      color: #005f73;
     }
 
     .btn {
       display: inline-block;
       margin-top: 20px;
       padding: 10px 20px;
-      background: #2e86de;
+      background: #005f73;
       color: white;
       text-decoration: none;
       border-radius: 4px;
     }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: #005f73;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50%;
+      font-size: 18px;
+      cursor: pointer;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
   </style>
 </head>
 <body>
+
+<a id="top"></a>
 
 <div class="hero">
   <div class="hero-text">
@@ -112,6 +139,14 @@
     <p>I'm a data analyst helping teams and businesses turn raw data into clear, actionable insight using SQL, Excel, Power BI, and Python. I specialize in uncovering trends, answering business questions, and building reports that support better decisions.</p>
   </div>
   <img src="./images/1748298529314.jpeg" alt="Profile Photo">
+</div>
+
+<div class="section">
+  <h2>Let’s Connect</h2>
+  <p style="font-size: 18px;">
+    🔗 <a href="https://www.linkedin.com/in/mbotobong-obot-6001851a4/" target="_blank">LinkedIn</a><br>
+    📧 <a href="mailto:obotmonday680@gmail.com">obotmonday680@gmail.com</a>
+  </p>
 </div>
 
 <div class="section">
@@ -141,15 +176,7 @@
   <p>This section is currently being updated. Stay tuned for detailed case studies on business dashboards, data pipelines, and performance reports.</p>
 </div>
 
-
-<!-- Contact Section -->
-<section style="padding: 40px; background-color: #e6e6e6; text-align: center;">
-    <h2 style="font-family: 'Times New Roman', Times, serif;">📫 Let’s Connect</h2>
-    <p style="font-size: 18px; font-family: 'Times New Roman', Times, serif;">
-        <a href="https://www.linkedin.com/in/mbotobong-obot-6001851a4/" target="_blank" style="text-decoration: none; color: #0077b5;">🔗 LinkedIn</a> |
-        <a href="mailto:obotmonday680@gmail.com" style="text-decoration: none; color: #dd4b39;">📧 Email</a>
-    </p>
-</section>
+<a href="#top" class="back-to-top" title="Back to top">↑</a>
 
 </body>
 </html>
