@@ -2,165 +2,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Monday Obot - Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f2f4f7;
-      color: #333;
-    }
-
-    header {
-      background-color: #0b2c2c;
-      color: #ffffff;
-      padding: 30px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 36px;
-      margin: 0;
-    }
-
-    .bio {
-      font-size: 16px;
-      margin-top: 10px;
-    }
-
-    .profile-container {
-      display: flex;
-      justify-content: center;
-      margin-top: 20px;
-    }
-
-    .profile-photo {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid #ffffff;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    }
-
-    .section {
-      margin: 30px auto;
-      padding: 20px;
-      width: 90%;
-      max-width: 900px;
-      background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    h2 {
-      font-size: 20px;
-      color: #0b2c2c;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 10px;
-    }
-
-    .row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 20px;
-    }
-
-    .column {
-      flex: 1;
-      min-width: 260px;
-    }
-
-    ul {
-      list-style-type: square;
-      padding-left: 20px;
-    }
-
-    .tool-icons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-      margin-top: 10px;
-    }
-
-    .tool-icons div {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .tool-icons img {
-      width: 24px;
-      height: 24px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 10px;
-      font-size: 14px;
-      color: #777;
-    }
-
-    a {
-      text-decoration: none;
-      color: #0b2c2c;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Monday Obot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            background-color: #f7f9fa;
+            color: #1e1e1e;
+        }
+        header {
+            text-align: center;
+            padding-top: 30px;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        h1 {
+            margin: 10px 0 0;
+        }
+        .bio {
+            font-size: 16px;
+            margin: 10px auto 20px;
+            line-height: 1.6;
+            text-align: center;
+            max-width: 80%;
+        }
+        .section-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        .section {
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1;
+            min-width: 250px;
+            margin: 10px;
+        }
+        h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #1d3557;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .icon-row {
+            display: flex;
+            gap: 15px;
+            margin-top: 8px;
+        }
+        .icon-row img {
+            width: 26px;
+            height: 26px;
+        }
+        .connect {
+            margin: 30px 10px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+        .connect a {
+            text-decoration: none;
+            color: #0077b5;
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
 
 <header>
-  <h1>Monday Obot</h1>
-  <p class="bio">I'm a data analyst helping teams and businesses turn raw data into clear, actionable insight using <strong>SQL, Excel, Power BI, and Python.</strong> I specialize in uncovering trends, answering business questions, and building reports that support better decisions.</p>
+    <img src="https://raw.githubusercontent.com/mondaytheanalyst/mondaytheanalyst.github.io/main/assets/photo.jpg" alt="Profile Photo" class="profile-pic">
+    <h1>Monday Obot</h1>
+    <p class="bio">
+        I'm a data analyst helping teams and businesses turn raw data into clear, actionable insight using <strong>SQL, Excel, Power BI, and Python.</strong>
+        I specialize in uncovering trends, answering business questions, and building reports that support better decisions.
+    </p>
 </header>
 
-<div class="profile-container">
-  <img src="assets/profile.jpg" alt="Profile Photo" class="profile-photo" />
+<div class="section-container">
+    <div class="section">
+        <h2>My Services</h2>
+        <ul>
+            <li>Business Performance & Revenue Analysis</li>
+            <li>Customer Insights & Segmentation</li>
+            <li>Marketing & Campaign Optimization</li>
+            <li>Funnel Analysis & Conversion Tracking</li>
+            <li>KPI Dashboards & Reporting Automation</li>
+        </ul>
+    </div>
+    <div class="section">
+        <h2>Tools I Use</h2>
+        <div class="icon-row">
+            <img src="https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png" alt="Excel">
+            <img src="https://img.icons8.com/color/48/000000/power-bi.png" alt="Power BI">
+            <img src="https://img.icons8.com/ios-filled/50/000000/database.png" alt="SQL">
+            <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python">
+            <img src="https://img.icons8.com/color/48/000000/tableau-software.png" alt="Tableau">
+        </div>
+    </div>
 </div>
 
-<div class="section row">
-  <div class="column">
+<div class="connect">
     <h2>Let's Connect</h2>
     <p>
-      <a href="https://www.linkedin.com/in/mbotobong-obot-6001851a4/" target="_blank">🔗 LinkedIn</a><br/>
-      📧 obotmonday680@gmail.com
+        <img src="https://img.icons8.com/color/24/linkedin.png" alt="LinkedIn">
+        <a href="https://www.linkedin.com/in/mbotobong-obot-6001851a4/" target="_blank">LinkedIn</a>
     </p>
-  </div>
-
-  <div class="column">
-    <h2>My Services</h2>
-    <ul>
-      <li>Business Performance & Revenue Analysis</li>
-      <li>Customer Insights & Segmentation</li>
-      <li>Marketing & Campaign Optimization</li>
-      <li>Funnel Analysis & Conversion Tracking</li>
-      <li>KPI Dashboards & Reporting Automation</li>
-    </ul>
-  </div>
+    <p>
+        <img src="https://img.icons8.com/color/24/gmail.png" alt="Gmail">
+        obotmonday680@gmail.com
+    </p>
 </div>
-
-<div class="section">
-  <h2>Tools I Use</h2>
-  <div class="tool-icons">
-    <div><img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png"/> Excel</div>
-    <div><img src="https://img.icons8.com/color/48/power-bi.png"/> Power BI</div>
-    <div><img src="https://img.icons8.com/color/48/sql.png"/> SQL</div>
-    <div><img src="https://img.icons8.com/color/48/python--v1.png"/> Python</div>
-    <div><img src="https://img.icons8.com/color/48/tableau-software.png"/> Tableau</div>
-  </div>
-</div>
-
-<footer>
-  &copy; 2025 Monday Obot
-</footer>
 
 </body>
 </html>
