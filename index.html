@@ -1,49 +1,160 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Monday Obot | Data Analyst</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <title>Monday Obot - Data Analyst Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #083c3c;
+            color: white;
+            padding: 40px 20px 60px 20px;
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 10px 0 5px;
+        }
+
+        p.bio {
+            font-size: 1rem;
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .section-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            padding: 30px 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+            padding: 20px 25px;
+            flex: 1 1 300px;
+            max-width: 400px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #083c3c;
+        }
+
+        .contact a {
+            display: block;
+            margin-top: 8px;
+            text-decoration: none;
+            color: #083c3c;
+            font-weight: bold;
+        }
+
+        .tools-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .tool {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 0.95rem;
+        }
+
+        .tool img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background-color: #083c3c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <img src="assets/profile.jpg" alt="Profile" class="profile-pic"/>
-      <h1>Monday Obot</h1>
-      <p>I'm a data analyst helping teams and businesses turn raw data into clear, actionable insight using <strong>SQL</strong>, <strong>Excel</strong>, <strong>Power BI</strong>, and <strong>Python</strong>.</p>
-    </div>
-  </header>
 
-  <section class="connect-services">
-    <div class="connect">
-      <h2>Let's Connect</h2>
-      <p><img src="assets/linkedin.png" class="icon"/> <a href="https://www.linkedin.com/in/mbotobong-obot-6001851a4/" target="_blank">LinkedIn</a></p>
-      <p><img src="assets/gmail.png" class="icon"/> obotmonday680@gmail.com</p>
-    </div>
-    <div class="services">
-      <h2>My Services</h2>
-      <ul>
-        <li>Business Performance & Revenue Analysis</li>
-        <li>Customer Insights & Segmentation</li>
-        <li>Marketing & Campaign Optimization</li>
-        <li>Funnel Analysis & Conversion Tracking</li>
-        <li>KPI Dashboards & Reporting Automation</li>
-      </ul>
-    </div>
-  </section>
+<header>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/800px-Image_created_with_a_mobile_phone.png" alt="Profile" class="profile-pic">
+    <h1>Monday Obot</h1>
+    <p class="bio">I'm a data analyst helping teams and businesses turn raw data into clear, actionable insight using <strong>SQL, Excel, Power BI, and Python</strong>. I specialize in uncovering trends, answering business questions, and building reports that support better decisions.</p>
+</header>
 
-  <section class="tools">
-    <h2>Tools I Use</h2>
-    <div class="tool-icons">
-      <img src="assets/excel.png" alt="Excel"/>
-      <img src="assets/powerbi.png" alt="Power BI"/>
-      <img src="assets/sql.png" alt="SQL"/>
-      <img src="assets/python.png" alt="Python"/>
-      <img src="assets/tableau.png" alt="Tableau"/>
+<div class="section-row">
+    <div class="card">
+        <h2>My Services</h2>
+        <ul>
+            <li>Business Performance & Revenue Analysis</li>
+            <li>Customer Insights & Segmentation</li>
+            <li>Marketing & Campaign Optimization</li>
+            <li>Funnel Analysis & Conversion Tracking</li>
+            <li>KPI Dashboards & Reporting Automation</li>
+        </ul>
     </div>
-  </section>
 
-  <a href="#" class="back-to-top">↑</a>
+    <div class="card">
+        <h2>Tools I Use</h2>
+        <div class="tools-grid">
+            <div class="tool">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel">
+                Excel
+            </div>
+            <div class="tool">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Power BI">
+                Power BI
+            </div>
+            <div class="tool">
+                <img src="https://cdn-icons-png.flaticon.com/512/4299/4299956.png" alt="SQL">
+                SQL
+            </div>
+            <div class="tool">
+                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
+                Python
+            </div>
+            <div class="tool">
+                <img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" alt="Tableau">
+                Tableau
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-row">
+    <div class="card contact">
+        <h2>Let's Connect</h2>
+        <a href="https://www.linkedin.com/in/mbotobong-obot-6001851a4/" target="_blank">🔗 LinkedIn</a>
+        <a href="mailto:obotmonday680@gmail.com">📧 obotmonday680@gmail.com</a>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Monday Obot. All rights reserved.
+</footer>
+
 </body>
 </html>
