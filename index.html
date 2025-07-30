@@ -2,134 +2,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Monday Obot | Data Analyst Portfolio</title>
-    <style>
-        body {
-            font-family: 'Times New Roman', serif;
-            background-color: #ebebeb;
-            color: #2b2b2b;
-            margin: 0;
-            padding: 0;
-        }
-        header, section {
-            padding: 30px 20px;
-        }
-        header {
-            background-color: #e0e0e0;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        header img {
-            border-radius: 10px;
-            width: 120px;
-            height: auto;
-        }
-        h1 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-        h2 {
-            font-size: 24px;
-            margin-top: 30px;
-        }
-        .services, .tools {
-            background-color: #d9d9d9;
-            margin: 20px;
-            border-radius: 8px;
-            padding: 20px;
-        }
-        .icon-list {
-            display: flex;
-            gap: 25px;
-            font-size: 22px;
-            margin-top: 15px;
-        }
-        .icon-list img {
-            height: 28px;
-            vertical-align: middle;
-        }
-        .contact-section {
-            padding: 20px;
-            background-color: #d0d0d0;
-            margin: 20px;
-            border-radius: 8px;
-        }
-        .contact-section a {
-            text-decoration: none;
-            color: #004d66;
-            font-weight: bold;
-        }
-        .contact-section a:hover {
-            text-decoration: underline;
-        }
-        .back-to-top {
-            position: fixed;
-            bottom: 30px;
-            right: 30px;
-            font-size: 24px;
-            background-color: #004d66;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 50%;
-            text-align: center;
-            cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            transition: background-color 0.3s ease;
-        }
-        .back-to-top:hover {
-            background-color: #006080;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monday Obot Portfolio</title>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: "Times New Roman", serif;
+      background-color: #f1f4f8;
+      color: #2c2c2c;
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: #193153;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .card, .connect, .services, .tools {
+      background-color: #e3e9f0;
+      border-radius: 10px;
+      margin-top: 20px;
+      padding: 20px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+
+    .connect a, .connect i {
+      margin-right: 15px;
+      color: #0a66c2;
+      font-size: 20px;
+    }
+
+    .connect a:hover, .tools i:hover {
+      opacity: 0.8;
+    }
+
+    .tools i {
+      font-size: 28px;
+      margin-right: 20px;
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #183153;
+      color: white;
+      padding: 10px 12px;
+      border-radius: 50%;
+      text-align: center;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
 
-<header>
-    <div>
-        <h1>Monday Obot</h1>
-        <p>
-            I'm a data analyst helping teams and businesses turn raw data into clear, actionable insight using SQL, Excel, Power BI, and Python. I specialize in uncovering trends, answering business questions, and building reports that support better decisions.
-        </p>
+  <section>
+    <h1>Monday Obot</h1>
+    <p>I'm a data analyst helping teams and businesses turn raw data into clear, actionable insight using <strong>SQL, Excel, Power BI, and Python</strong>. I specialize in uncovering trends, answering business questions, and building reports that support better decisions.</p>
+
+    <div class="connect">
+      <h2>Let’s Connect</h2>
+      <p>
+        <a href="https://www.linkedin.com/in/mbotobong-obot-6001851a4/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <i class="fas fa-envelope"></i> obotmonday680@gmail.com
+      </p>
     </div>
-    <img src="profile.jpg" alt="Profile Photo">
-</header>
 
-<section class="contact-section">
-    <h2>Let’s Connect</h2>
-    <p>
-        <a href="https://www.linkedin.com/in/mbotobong-obot-6001851a4" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="22"> LinkedIn
-        </a>
-        &nbsp; &nbsp;
-        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" width="22">
-        obotmonday680@gmail.com
-    </p>
-</section>
-
-<section class="services">
-    <h2>My Services</h2>
-    <ul>
-        <li>📊 Business Performance & Revenue Analysis</li>
-        <li>🧠 Customer Insights & Segmentation</li>
-        <li>📣 Marketing & Campaign Optimization</li>
-        <li>🔍 Funnel Analysis & Conversion Tracking</li>
-        <li>📈 KPI Dashboards & Reporting Automation</li>
-    </ul>
-</section>
-
-<section class="tools">
-    <h2>Tools I Use</h2>
-    <div class="icon-list">
-        <span><img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel"> Excel</span>
-        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Power BI"> Power BI</span>
-        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png" alt="SQL"> SQL</span>
-        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python"> Python</span>
-        <span><img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="Tableau"> Tableau</span>
+    <div class="services">
+      <h2>My Services</h2>
+      <ul>
+        <li>Business Performance & Revenue Analysis</li>
+        <li>Customer Insights & Segmentation</li>
+        <li>Marketing & Campaign Optimization</li>
+        <li>Funnel Analysis & Conversion Tracking</li>
+        <li>KPI Dashboards & Reporting Automation</li>
+      </ul>
     </div>
-</section>
 
-<a class="back-to-top" href="#">↑</a>
+    <div class="tools">
+      <h2>Tools I Use</h2>
+      <p>
+        <i class="fas fa-file-excel"></i> Excel
+        <i class="fas fa-chart-bar"></i> Power BI
+        <i class="fas fa-database"></i> SQL
+        <i class="fab fa-python"></i> Python
+        <i class="fas fa-chart-pie"></i> Tableau
+      </p>
+    </div>
+  </section>
+
+  <a href="#top" class="back-to-top" title="Back to top">↑</a>
 
 </body>
 </html>
