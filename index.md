@@ -48,22 +48,7 @@ Includes normalized schema, real-world data, query logic, ERD and query results.
 
 ---
 
-### 🧾 Consumer Spending Analysis (SQL Project)
 
-A SQL-powered analysis of consumer spending data (~10,000 records), covering:
-
-- 💸 Top spending categories
-- 🏦 Preferred payment methods
-- 🛍️ Popular products
-- 📅 Monthly & quarterly trends
-- 🧠 Weekday & Weekend spending behaviour
-- 🏦 Spending tiers
-
-🧹 Cleaned with Excel | 🔍 Analyzed with SQL only
-
-🔗 [View Full Project on GitHub](https://github.com/MondayTheAnalyst/consumer-spending-sql)
-
----
 
 ### 🔹 Model Commerce Sales Analysis (SQL + Excel)
 A deep-dive business intelligence project built with SQL and Excel.
