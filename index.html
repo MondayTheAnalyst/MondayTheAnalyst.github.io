@@ -217,6 +217,36 @@
       border-radius: 8px;
     }
   </style>
+  
+    .services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    }
+  
+  .service-box {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .service-box .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  
 </head>
 <body>
   
@@ -239,16 +269,38 @@
 </header>
 
 <div class="section-row">
-  <div class="card">
-    <h2>My Services</h2>
-    <ul>
-      <li>Business Performance & Revenue Analysis</li>
-      <li>Customer Insights & Segmentation</li>
-      <li>Marketing & Campaign Optimization</li>
-      <li>Funnel Analysis & Conversion Tracking</li>
-      <li>KPI Dashboards & Reporting Automation</li>
-    </ul>
+  
+<div class="card">
+  <h2>My Services</h2>
+  <div class="services-grid">
+    <div class="service-box">
+      <div class="icon">📊</div>
+      <h3>Business Dashboards</h3>
+      <p>Interactive BI dashboards to track performance, KPIs, and trends for fast, data-driven decisions.</p>
+    </div>
+    <div class="service-box">
+      <div class="icon">👥</div>
+      <h3>Customer Insights</h3>
+      <p>Segment customers, track LTV, churn, and buying behavior using SQL, Excel, and Power BI.</p>
+    </div>
+    <div class="service-box">
+      <div class="icon">📢</div>
+      <h3>Marketing Analytics</h3>
+      <p>Analyze campaign performance, web traffic, and conversion funnels to improve ROI.</p>
+    </div>
+    <div class="service-box">
+      <div class="icon">⚙️</div>
+      <h3>Operational & Financial Analysis</h3>
+      <p>Identify bottlenecks, optimize processes, and monitor financial metrics using structured data.</p>
+    </div>
+    <div class="service-box">
+      <div class="icon">🔄</div>
+      <h3>Automated Reporting</h3>
+      <p>Automate recurring reports in Excel and Power BI with live database connections.</p>
+    </div>
   </div>
+</div>
+
 
   <div class="card">
     <h2>Tools I Use</h2>
