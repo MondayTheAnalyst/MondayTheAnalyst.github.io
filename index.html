@@ -129,6 +129,35 @@
       box-shadow: 0 6px 12px rgba(0,0,0,0.12);
     }
 
+    .navbar {
+      position: sticky;
+      top: 0;
+      background-color: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      z-index: 1000;
+    }
+
+    .navbar ul {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .navbar a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #083c3c;
+      transition: color 0.2s ease;
+    }
+
+    .navbar a:hover {
+      color: #007BFF;
+    }
+
     .project-card a:hover {
       color: #0056b3;
       text-decoration: underline;
@@ -174,6 +203,14 @@
   </style>
 </head>
 <body>
+  
+  <nav class="navbar">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#connect">Contact</a></li>
+  </ul>
+  </nav>
 
 <header>
   <img src="Profile.jpeg" alt="Profile" class="profile-pic">
@@ -220,7 +257,7 @@
   </div>
 </div>  
   
-<div class="section-row">
+<div class="section-row" id="connect">
   <div class="card contact">
     <h2>Let's Connect</h2>
     <a href="https://www.linkedin.com/in/mbotobong-obot-6001851a4/" target="_blank">
@@ -233,7 +270,7 @@
 </div>
 
 <!-- My Projects -->
-<section class="projects-section">
+<section class="projects-section" id="projects">
   <h2>My Projects</h2>
 
    <div class="project-card reverse">
