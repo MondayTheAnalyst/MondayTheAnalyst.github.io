@@ -55,7 +55,7 @@
       transition: transform 0.3s ease;
     }
 
-    .card:hover {
+    .card:hover:not(.no-hover) {
       transform: translateY(-5px);
     }
 
@@ -264,7 +264,7 @@
       padding: 40px 20px;
     }
 
-    /* WHAT I CAN HELP WITH */
+    /* What I Can Help With */
     .help-section {
       padding: 40px 20px;
       background-color: #fff;
@@ -282,17 +282,11 @@
       font-size: 1.1rem;
       line-height: 1.6;
     }
-
-    .card:hover:not(.no-hover) {
-      transform: translateY(-5px);
-    }
-    
-
   </style>
 </head>
+
 <body>
-
-
+  <!-- Navbar -->
   <nav class="navbar">
     <ul>
       <li><a href="#">Home</a></li>
@@ -301,13 +295,12 @@
     </ul>
   </nav>
 
+  <!-- Header -->
   <header>
     <img src="Profile.jpeg" alt="Profile" class="profile-pic">
     <h1>Obot Mbotobong Monday</h1>
     <p class="bio">I'm a data analyst with a background in <strong>economics</strong>, passionate about solving real-world problems through data. From <strong>e-commerce</strong> and <strong>public health</strong> to <strong>insurance</strong>, and <strong>website analytics</strong>, I uncover trends, answer business questions, and deliver insights that drive smarter decisions. I work with tools like <strong>SQL</strong>, <strong>Excel</strong>, <strong>Power BI</strong>, and <strong>Python</strong> — turning raw data into clear, impactful stories.</p>
-    <a href="Obot_Mbotobong_CV.pdf" target="_blank" class="resume-button">
-      📄 Download Resume
-    </a>
+    <a href="Obot_Mbotobong_CV.pdf" target="_blank" class="resume-button">📄 Download Resume</a>
   </header>
 
   <!-- SERVICES -->
@@ -337,31 +330,16 @@
     </div>
   </section>
 
-  <!-- TOOLS L -->
+  <!-- TOOLS + CONTACT -->
   <div class="tools-contact-section">
     <div class="card no-hover">
       <h2>Tools I Use</h2>
       <div class="tools-grid">
-        <div class="tool">
-          <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel">
-          Excel
-        </div>
-        <div class="tool">
-          <img src="powerbi_logo.png" alt="Power BI"> 
-          Power BI
-        </div>
-        <div class="tool">
-          <img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" alt="SQL">
-          SQL
-        </div>
-        <div class="tool">
-          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
-          Python
-        </div>
-        <div class="tool">
-          <img src="tableau_logo.png" alt="Tableau">
-          Tableau
-        </div>
+        <div class="tool"><img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel">Excel</div>
+        <div class="tool"><img src="powerbi_logo.png" alt="Power BI">Power BI</div>
+        <div class="tool"><img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png" alt="SQL">SQL</div>
+        <div class="tool"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">Python</div>
+        <div class="tool"><img src="tableau_logo.png" alt="Tableau">Tableau</div>
       </div>
     </div>
 
@@ -376,9 +354,7 @@
     </div>
   </div>
 
-  <!-- PROJECTS SECTION -->
-
-  <!-- My Projects -->
+    <!-- My Projects -->
 <section class="projects-section" id="projects">
   <h2>My Projects</h2>
 
@@ -497,17 +473,18 @@
   </div>
 </div>
 
+  
+  <!-- WHAT I CAN HELP WITH -->
+  <section class="help-section">
+    <h2>What I Can Help With</h2>
+    <p>
+      Whether you're a business looking to streamline operations, a startup in need of actionable dashboards, or a team trying to unlock value from raw data, I can help. From SQL database querying and report automation to customer insights and KPI visualization, I bring clarity to complexity through thoughtful analysis and storytelling.
+    </p>
+  </section>
 
-<section class="help-section">
-  <h2>What I Can Help With</h2>
-  <p>
-    Whether you're a business looking to streamline operations, a startup in need of actionable dashboards, or a team trying to unlock value from raw data, I can help. From SQL database querying and report automation to customer insights and KPI visualization, I bring clarity to complexity through thoughtful analysis and storytelling.
-  </p>
-</section>
-
-<footer>
-  &copy; 2025 Obot Mbotobong Monday . All rights reserved.
-</footer>
-
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Obot Mbotobong Monday. All rights reserved.
+  </footer>
 </body>
 </html>
