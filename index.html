@@ -269,7 +269,6 @@
       padding: 40px 20px;
     }
 
-    /* What I Can Help With */
     .help-section {
       padding: 40px 20px;
       background-color: #fff;
@@ -287,6 +286,27 @@
       font-size: 1.1rem;
       line-height: 1.6;
     }
+
+    @media (max-width: 768px) {
+    .project-card,
+    .project-card.reverse {
+      flex-direction: column !important;
+      align-items: center;
+    }
+
+    .project-image,
+    .project-info {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+
+    .project-image img {
+      width: 100%;
+      height: auto;
+      }
+    }
+
+    
   </style>
 </head>
 
